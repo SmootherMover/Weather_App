@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://a.cdn-hotels.com/gdcs/production4/d149/98d071cb-6f35-4687-8d72-3958446b495e.jpg?impolicy=fcrop&w=1600&h=1066&q=medium");
+    background-position: top;
+
+}
+
+
+#weather-container {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 50%;
+    border: 2px black solid;
+    border-radius: 25px;
+    background-color: hsla(0, 0%, 30%, 0.90);;
+}
+
+#form {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    height: fit-content;
+    width: 50%;
+}
+
+#search-input {
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+}
+
+#search-button {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 20%);
+}
+
+input:focus {
+    outline: 0;
+}
+
+
+/* 1. Display stuff (display, box-sizing, visibility, z-index, etc)
+2. Positioning stuff (postion, top, left, right, etc)
+3. Size stuff (widt+h, height, padding, margin, etc)
+4. Border stuff (border, border-radius)
+5. Background stuff (background, box-shadow, etc)
+6. Text stuff (font-family, font-size, line-heigth, whitespace, text-align, color, etc)
+7. Transforms and fancy things (transform, transitions, etc)
+8. Anything else (cursor, ???, etc) */
